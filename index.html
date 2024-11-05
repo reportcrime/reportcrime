@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Crimes Online - Your Voice Matters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Report Crimes Online - Your Voice Matters</h1>
+    
+    <!-- Telegram Group Link -->
+    <div class="telegram-link section">
+        <a href="#">Join Our Secure Reporting Group on Telegram</a>
+    </div>
+
+    <!-- Reporting Type Section -->
+    <div class="section">
+        <h2>Select Your Reporting Method</h2>
+        <p class="price-info">Automated Reporting: $2 for 10 reports</p>
+        <p class="price-info">Human Review Reporting: 3 reports for $1</p>
+        
+        <label for="report-type">Choose Reporting Type:</label>
+        <select id="report-type">
+            <option value="automated">Automated Reporting</option>
+            <option value="human">Human Review Reporting</option>
+        </select>
+        
+        <label for="report-count">Number of Reports:</label>
+        <input type="text" id="report-count" placeholder="Enter the number of reports you wish to submit">
+    </div>
+
+    <!-- Reporting Form -->
+    <form>
+        <div class="form-group">
+            <label for="crime-type">Type of Crime:</label>
+            <select id="crime-type">
+                <option value="fraud">Fraud</option>
+                <option value="impersonation">Impersonation</option>
+                <option value="hacking">Account Hacking</option>
+                <option value="theft">Theft</option>
+                <option value="harassment">Harassment</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="platform">Platform Involved:</label>
+            <select id="platform">
+                <option value="tiktok">TikTok</option>
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="link">Link to Related Post/Account:</label>
+            <input type="text" id="link" placeholder="Paste the relevant link here">
+        </div>
+
+        <div class="form-group">
+            <label for="crime-description">Brief Description of the Crime:</label>
+            <textarea id="crime-description" placeholder="Provide a short description of the incident..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="file-upload">Upload Supporting Images or Video:</label>
+            <input type="file" id="file-upload" multiple>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Your Contact Email:</label>
+            <input type="email" id="email" placeholder="Your email address for follow-up">
+        </div>
+
+        <a href="#" class="button">Submit Your Report</a>
+    </form>
+
+    <!-- Final Message -->
+    <div class="section">
+        <p>Once reviewed, you will receive a payment link to proceed with your report. </p>
+        <p class="footer">Payment instructions will be sent to your email at: <strong>DC146028@GMAIL.COM</strong></p>
+    </div>
+</div>
+
+</body>
+</html>
